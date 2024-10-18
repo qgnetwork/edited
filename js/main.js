@@ -133,3 +133,9 @@ document.querySelector('.back-to-top').addEventListener('click', function(event)
     window.scrollTo({top: 0, behavior: 'smooth'});
 });
 
+var typed1 = new Typed(".typed1", {
+    strings : ["Quantum Global Networks"],
+    typeSpeed : 80,
+    backSpeed : 100,
+    loop : true
+})
